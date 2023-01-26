@@ -10,9 +10,9 @@
         <module name="product-service" />
         <module name="shopping-service" />
         <module name="customer-service" />
-        <module name="admin-service" />
-        <module name="registry-service" />
         <module name="gateway-service" />
+        <module name="admin-service" />
+        <module name="server-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,7 +22,7 @@
       <module name="customer-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
-      <module name="registry-service" options="-parameters" />
+      <module name="server-service" options="-parameters" />
       <module name="shopping-service" options="-parameters" />
     </option>
   </component>
